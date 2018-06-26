@@ -1,0 +1,107 @@
+html, body{padding: 0; margin: 0; font: 16px/1.4 Verdana, Arial, Helvetica, sans-serif; background: #42413C; color: #fff; height: 100%;}
+body{position: relative; cursor: default;}
+img{max-width: 100%;}
+table img{max-width: none;}
+a img {border: 0 none;}
+h1, h2, h3 ,
+h4, h5, h6{padding: 0; margin: 1.2em 0 0.8em; font-weight: normal;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display: block;}
+a{text-decoration: underline; color: #fff;}
+a:hover{text-decoration: none;}
+a span, a font{cursor: pointer;}
+hr{background: #3e76b3; height: 1px; border: 0 none; margin: 20px 0;}
+label{cursor: pointer; -moz-user-select: none; -khtml-user-select: none; user-select: none;}
+input[type="submit"], button{cursor: pointer;}
+textarea{resize: vertical;}
+input,
+textarea,
+button{font-family: inherit; color: inherit; outline: 0 none; box-sizing: border-box;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+::selection{color: #222; background: #fff;}
+::-moz-selection{color: #222; background: #fff;}
+
+
+.main{min-height: 100%;}
+.main > div{position: relative;}
+
+.header,
+.one-page{position: relative;}
+
+.header{padding: 1em 1em; font-size: 1.5em; }
+.one-page{padding: 1em 2.75em; overflow: hidden;}
+
+.time,
+.ready{position: absolute; width: 0; left: 0; top: 0; height: 100%;}
+.time{-webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; -o-transition: all 1s ease-out; transition: all 1s ease-out;}
+.ready{-webkit-transition: all 1s ease-out 0.75s; -moz-transition: all 1s ease-out 0.75s; -o-transition: all 1s ease-out 0.75s; transition: all 1s ease-out 0.75s;}
+.time{background: #007A50;}
+/*.time:after{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; box-shadow: 0 2px 3px rgba(0,0,0,0.5) inset;}*/
+.ready{background: #00A054; box-shadow: 2px 0 3px rgba(0,0,0,0.15);}
+
+.danger .time{background: #BB3112; z-index: 2; box-shadow: 2px 0 3px rgba(0,0,0,0.25);}
+.danger .time:after{display: none;}
+.danger .ready{background: #D04013; z-index: 1;  box-shadow: none;}
+/*.danger .ready:after{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; box-shadow: 0 2px 3px rgba(0,0,0,0.5) inset;}*/
+
+.header span,
+.one-page span{text-shadow: 1px 1px 2px rgba(0,0,0,0.5);}
+.header span{position: relative; z-index: 10;}
+.one-page span{position: relative; z-index: 10; white-space: nowrap;}
+.ready-text{font-size: 75%;}
+
+.header font{display: block; font-size: 75%;}
+.header font{position: relative; z-index: 10;}
+
+
+.one-page.true:after{content: "\1F44D"; position: absolute; top: 0.4em; left: 0.5em; font-size: 1.5em; z-index: 12; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);}
+.one-page.danger.true:after{content: "\1F44E";}
+.one-page .name{margin: 0 1em 0 0;}
+.one-page .screen{font-size: 1.5em; margin: 0 0.25em; vertical-align: middle;}
+.one-page .screen a{text-decoration: none;}
+
+
+/*.one-page:hover .time{width: 100%;} */
+
+
+.page-ok .w0{width: 0;}
+.page-ok .w1{width: 1%;}		.page-ok .w2{width: 2%;}		.page-ok .w3{width: 3%;}		.page-ok .w4{width: 4%;}		.page-ok .w5{width: 5%;}
+.page-ok .w6{width: 6%;}		.page-ok .w7{width: 7%;}		.page-ok .w8{width: 8%;}		.page-ok .w9{width: 9%;}		.page-ok .w10{width: 10%;}
+.page-ok .w11{width: 11%;}	.page-ok .w12{width: 12%;}	.page-ok .w13{width: 13%;}	.page-ok .w14{width: 14%;}	.page-ok .w15{width: 15%;}
+.page-ok .w16{width: 16%;}	.page-ok .w17{width: 17%;}	.page-ok .w18{width: 18%;}	.page-ok .w19{width: 19%;}	.page-ok .w20{width: 20%;}
+.page-ok .w21{width: 21%;}	.page-ok .w22{width: 22%;}	.page-ok .w23{width: 23%;}	.page-ok .w24{width: 24%;}	.page-ok .w25{width: 25%;}
+.page-ok .w26{width: 26%;}	.page-ok .w27{width: 27%;}	.page-ok .w28{width: 28%;}	.page-ok .w29{width: 29%;}	.page-ok .w30{width: 30%;}
+.page-ok .w31{width: 31%;}	.page-ok .w32{width: 32%;}	.page-ok .w33{width: 33%;}	.page-ok .w34{width: 34%;}	.page-ok .w35{width: 35%;}
+.page-ok .w36{width: 36%;}	.page-ok .w37{width: 37%;}	.page-ok .w38{width: 38%;}	.page-ok .w39{width: 39%;}	.page-ok .w40{width: 40%;}
+.page-ok .w41{width: 41%;}	.page-ok .w42{width: 42%;}	.page-ok .w43{width: 43%;}	.page-ok .w44{width: 44%;}	.page-ok .w45{width: 45%;}
+.page-ok .w46{width: 46%;}	.page-ok .w47{width: 47%;}	.page-ok .w48{width: 48%;}	.page-ok .w49{width: 49%;}	.page-ok .w50{width: 50%;}
+.page-ok .w51{width: 51%;}	.page-ok .w52{width: 52%;}	.page-ok .w53{width: 53%;}	.page-ok .w54{width: 54%;}	.page-ok .w55{width: 55%;}
+.page-ok .w56{width: 56%;}	.page-ok .w57{width: 57%;}	.page-ok .w58{width: 58%;}	.page-ok .w59{width: 59%;}	.page-ok .w60{width: 60%;}
+.page-ok .w61{width: 61%;}	.page-ok .w62{width: 62%;}	.page-ok .w63{width: 63%;}	.page-ok .w64{width: 64%;}	.page-ok .w65{width: 65%;}
+.page-ok .w66{width: 66%;}	.page-ok .w67{width: 67%;}	.page-ok .w68{width: 68%;}	.page-ok .w69{width: 69%;}	.page-ok .w70{width: 70%;}
+.page-ok .w71{width: 71%;}	.page-ok .w72{width: 72%;}	.page-ok .w73{width: 73%;}	.page-ok .w74{width: 74%;}	.page-ok .w75{width: 75%;}
+.page-ok .w76{width: 76%;}	.page-ok .w77{width: 77%;}	.page-ok .w78{width: 78%;}	.page-ok .w79{width: 79%;}	.page-ok .w80{width: 80%;}
+.page-ok .w81{width: 81%;}	.page-ok .w82{width: 82%;}	.page-ok .w83{width: 83%;}	.page-ok .w84{width: 84%;}	.page-ok .w85{width: 85%;}
+.page-ok .w86{width: 86%;}	.page-ok .w87{width: 87%;}	.page-ok .w88{width: 88%;}	.page-ok .w89{width: 89%;}	.page-ok .w90{width: 90%;}
+.page-ok .w91{width: 91%;}	.page-ok .w92{width: 92%;}	.page-ok .w93{width: 93%;}	.page-ok .w94{width: 94%;}	.page-ok .w95{width: 95%;}
+.page-ok .w96{width: 96%;}	.page-ok .w97{width: 97%;}	.page-ok .w98{width: 98%;}	.page-ok .w99{width: 99%;}	.page-ok .w100{width: 100%;}
+
+
+@media screen and (min-width: 0px) and (max-width: 100px){
+    body{font-size: 12px;}
+}
+
+@media screen and (min-width: 101px) and (max-width: 500px){
+    body{font-size: 14px;}
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+    body{font-size: 16px;}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1500px){
+    body{font-size: 18px;}
+}
+
+@media screen and (min-width: 1501px) and (max-width: 2000px) {
+    body{font-size: 20px;}
+}
